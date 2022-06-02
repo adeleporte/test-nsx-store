@@ -58,5 +58,20 @@
             "tag1",
             "tag2"
         ]
+    },
+    {
+        "id": "127",
+        "logo": "127",
+        "title": "test5",
+        "description": "description",
+        "documentation": "doc",
+        "template": "https://templace",
+        "author": "adeleporte@vmware.com",
+        "type": "security",
+        "creation": 123,
+        "tags": [
+            "tag1",
+            "tag2"
+        ]
     }
 ]
