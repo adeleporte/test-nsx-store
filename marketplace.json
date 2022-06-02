@@ -1,77 +1,273 @@
 [
     {
-        "id": "123",
-        "logo": "123",
-        "title": "test1",
-        "description": "description",
+        "id": "vm_tags_backup_restore",
+        "logo": "security",
+        "title": "VM Tags Backup/Restore",
+        "description": "VM Tags Backup/Restore",
         "documentation": "doc",
-        "template": "https://templace",
+        "template": "https://template",
         "author": "adeleporte@vmware.com",
         "type": "security",
-        "creation": 123,
         "tags": [
-            "tag1",
-            "tag2"
+            "security",
+            "tags"
         ]
     },
     {
-        "id": "124",
-        "logo": "124",
-        "title": "test2",
-        "description": "description",
+        "id": "list_vm_zero_hit",
+        "logo": "security",
+        "title": "List DFW rules with 0 hit",
+        "description": "List DFW rules with 0 hit",
         "documentation": "doc",
-        "template": "https://templace",
+        "template": "https://template",
         "author": "adeleporte@vmware.com",
         "type": "security",
-        "creation": 123,
         "tags": [
-            "tag1",
-            "tag2"
+            "security",
+            "dfw"
         ]
     },
     {
-        "id": "125",
-        "logo": "125",
-        "title": "test3",
-        "description": "description",
+        "id": "gateway_interfaces",
+        "logo": "network",
+        "title": "Gateway interfaces with 0 traffic",
+        "description": "Gateway interfaces with 0 traffic",
         "documentation": "doc",
-        "template": "https://templace",
+        "template": "https://template",
         "author": "adeleporte@vmware.com",
         "type": "security",
-        "creation": 123,
         "tags": [
-            "tag1",
-            "tag2"
+            "network",
+            "edge"
         ]
     },
     {
-        "id": "126",
-        "logo": "12§",
-        "title": "test4",
-        "description": "description",
+        "id": "segment_ports",
+        "logo": "network",
+        "title": "Segment port with 0 traffic",
+        "description": "Segment port with 0 traffic",
         "documentation": "doc",
-        "template": "https://templace",
+        "template": "https://template",
         "author": "adeleporte@vmware.com",
         "type": "security",
-        "creation": 123,
         "tags": [
-            "tag1",
-            "tag2"
+            "network",
+            "switching"
         ]
     },
     {
-        "id": "127",
-        "logo": "127",
-        "title": "test5",
-        "description": "description",
+        "id": "dfw_per_vnic",
+        "logo": "security",
+        "title": "Display DFW rules applied to vnic",
+        "description": "Display DFW rules applied to vnic",
         "documentation": "doc",
-        "template": "https://templace",
+        "template": "https://template",
         "author": "adeleporte@vmware.com",
         "type": "security",
-        "creation": 123,
         "tags": [
-            "tag1",
-            "tag2"
+            "security",
+            "inventory"
+        ]
+    },
+    {
+        "id": "gateway_backup_restore",
+        "logo": "network",
+        "title": "Gateway Backup and Restore",
+        "description": "Gateway Backup and Restore",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "security",
+        "tags": [
+            "network",
+            "edge"
+        ]
+    },
+    {
+        "id": "personalized_nsx_ui",
+        "logo": "ui",
+        "title": "Personalized NSX UI",
+        "description": "Personalized NSX UI",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "ui",
+        "tags": [
+            "platform",
+            "ui"
+        ]
+    },
+    {
+        "id": "code_capture",
+        "logo": "api",
+        "title": "API Code Capture and Replay",
+        "description": "API Code Capture and Replay",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "api",
+        "tags": [
+            "platform",
+            "api"
+        ]
+    },
+    {
+        "id": "github_nsx_config",
+        "logo": "automation",
+        "title": "Git NSX configuration",
+        "description": "Git NSX configuration",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "automation",
+        "tags": [
+            "plaform",
+            "api"
+        ]
+    },
+    {
+        "id": "scale_diagnostic",
+        "logo": "performance",
+        "title": "Scale diagnostic",
+        "description": "Scale diagnostic",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "performance",
+        "tags": [
+            "network",
+            "security",
+            "platform",
+            "edge",
+            "api"
+        ]
+    },
+    {
+        "id": "atp_replay",
+        "logo": "security",
+        "title": "ATP pcap replay",
+        "description": "ATP pcap replay",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "security",
+        "tags": [
+            "security",
+            "edge"
+        ]
+    },
+    {
+        "id": "nsx_benchmark",
+        "logo": "performance",
+        "title": "NSX Benchmark",
+        "description": "NSX Benchmark",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "performance",
+        "tags": [
+            "network",
+            "edge"
+        ]
+    },
+    {
+        "id": "easy_antrea",
+        "logo": "kubernetes",
+        "title": "Antrea easy install",
+        "description": "Antrea easy install",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "kubernetes",
+        "tags": [
+            "security",
+            "containers"
+        ]
+    },
+    {
+        "id": "nsx_samples",
+        "logo": "api",
+        "title": "Samples for NSX consumption",
+        "description": "Samples for NSX consumption",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "api",
+        "tags": [
+            "samples",
+            "security",
+            "network"
+        ]
+    },
+    {
+        "id": "nsx_terraformer",
+        "logo": "api",
+        "title": "Create Terraform Configuration from NSX config",
+        "description": "Create Terraform Configuration from NSX config",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "api",
+        "tags": [
+            "network",
+            "security"
+        ]
+    },
+    {
+        "id": "mitre_weather_map",
+        "logo": "security",
+        "title": "MITRE Weather Map",
+        "description": "MITRE Weather Map",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "security",
+        "tags": [
+            "network",
+            "edge"
+        ]
+    },
+    {
+        "id": "nsx_tapaas",
+        "logo": "network",
+        "title": "TAP as a service",
+        "description": "TAP as a service",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "network",
+        "tags": [
+            "network",
+            "security"
+        ]
+    },
+    {
+        "id": "edge_monitor",
+        "logo": "network",
+        "title": "Edge statistics",
+        "description": "Edge statistics",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "network",
+        "tags": [
+            "network",
+            "edge"
+        ]
+    },
+    {
+        "id": "dc_in_a_nox",
+        "logo": "api",
+        "title": "DCinaBox deployment",
+        "description": "DCinaBox deployment",
+        "documentation": "doc",
+        "template": "https://template",
+        "author": "adeleporte@vmware.com",
+        "type": "api",
+        "tags": [
+            "network",
+            "security",
+            "automation"
         ]
     }
 ]
